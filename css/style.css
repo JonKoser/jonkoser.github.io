@@ -85,6 +85,13 @@ div {
     background-size: cover;
     background-position: center;
     margin-top: 10px;
+    color: #333;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
 }
 
 .item1 {
