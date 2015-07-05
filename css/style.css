@@ -4,10 +4,12 @@
  */
 
 /* Links */
-a,
+a {
+    color: #fff;
+}
 a:focus,
 a:hover {
-  color: #fff;
+  color: #09BCE8;
 }
 
 /* Custom default button */
@@ -23,6 +25,10 @@ a:hover {
 /*
  * Base structure
  */
+
+.navbar-nav{
+    float: right;
+}
 
 html,
 body {
@@ -88,7 +94,7 @@ div {
     color: #333;
 }
 
-@media(min-width:767px) {
+/*@media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
@@ -104,7 +110,7 @@ div {
 
 .item3 {
     background-image: url("../img/Portfolio/Change_In_Access_To_Water%20%5BConverted%5D.jpg")
-}
+} */
 
 /*
  * Footer
