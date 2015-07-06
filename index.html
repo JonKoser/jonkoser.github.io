@@ -66,42 +66,51 @@
                     <h3>Disclaimer: This is a work in progress!</h3>
                     <p class="lead">Hello! I am a recent graduate from the University of Wisconsin - Madison where I studied Cartography/GIS and Human Geography. My passions lie in a lot of different places, spanning both technical (like programming and GIS technologies) and less-technical domains (like culture and music). Please don't hesitate to contact me if you have any questions or comments. Thanks!</p>
                     <p class="lead">
-                        <a href="#about" class="btn btn-lg btn-default">Continue</a>
+                        <a href="#body" class="btn btn-lg btn-default">Continue</a>
                     </p>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about">
+    <!-- Body Section -->
+    <section id="body">
         <div class="container content">
             <div class="row">
-                <div class="col-md-12">
-                    <a href="/about.html"><h2>About Me</h2></a>
-                    <p>This lins to more informationa about me</p>
+                <div class="col-md-6">
+                    <a href="/about.html"><img src="/img/about_icon.png" alt="About Me" width="150"></a>
+                    <p class = "lead">About Me</p>
                 </div>
-                <!-- /.col-md-12 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
+                <div class = "col-md-6">
+                    <a href="/work.html"><img src="/img/work_icon.png" alt="My Portfolio" width="150"></a>
+                    <p class="lead">My Portfolio</p>
+                </div>
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
     </section>
 
-    <!-- Work Section -->
-    <section id="work">
-        <div class="container content">
-            <div class="row">
-                <div class="col-md-12">
-                    <a href="/work.html"><h2>My Work</h2></a>
-                    <p class="lead">This links to my portfolio.</p>
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-    </section>
 
-    <!-- Contact Section -->
+    <!--Contact Section -->
+    <!--<div class="container content">
+        <div class="row">
+            <div class = "col-lg-12 text-center">
+               <h2>Contact Me</h2>
+                <hr>
+            </div>
+        </div> <!-- end of "row" -->
+    <!--
+        <div class="row contact_info">
+            <form action="http://formspree.io/jonathan.koser@gmail.com"
+                method="POST">
+                <input type="text" name="name">
+                <input type="email" name="_replyto">
+                <input type="submit" value="Send">
+            </form>
+        </div>  
+    </div>
+    -->
+    
+    
     <section id="contact">
         <div class="container content">
             <div class="row">
@@ -114,7 +123,8 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+
+                        <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
@@ -156,6 +166,7 @@
         </div>
     </section>
 
+    
 
     <!-- Footer -->
     <footer class="text-center mastfoot">
