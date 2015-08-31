@@ -94,28 +94,11 @@ div {
     color: #333;
 }
 
-/*@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
-
-.item1 {
-    background-image: url("../img/Portfolio/USAv5.5_proof.jpg");
-}
-
-.item2 {
-    background-image: url("../img/Portfolio/OldSaltRoute.jpg")
-}
-
-.item3 {
-    background-image: url("../img/Portfolio/Change_In_Access_To_Water%20%5BConverted%5D.jpg")
-} */
-
-/*
- * Footer
- */
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+}
+
+#gallery img {
+    padding: 10px
 }
