@@ -63,6 +63,14 @@ header {
     text-align: left;
 }
 
+.about_text a {
+    color: rgb(150,230,255)
+}
+
+.about_text a:hover {
+    color: #09BCE8;
+}
+
 .contact_info {
     text-align: left
 }
