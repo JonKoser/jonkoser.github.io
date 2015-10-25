@@ -107,6 +107,26 @@ div {
   color: rgba(255,255,255,.5);
 }
 
+.desc-text {
+    text-align: left;
+}
+
+.desc-text h4 {
+    color: goldenrod
+}
+
+.desc-text a {
+    color:rgb(150,230,255);
+}
+
+.desc-text a:hover{
+    color: #09BCE8;
+}
+
+#gallery{
+    text-align: right;
+}
+
 #gallery img {
-    padding: 10px
+    padding: 10px;
 }
